@@ -5,18 +5,18 @@
 
 ![](header.png)
 
-| Chess Piece                | Moveset |
-| -------------------------- | ------- |
-| (S/s) Serpent              |         |
-| (O/o) Old Woman            |         |
-| (E/e) Grand Empress        |         |
-| (J/j) Prince Joey          |         |
-| (C/c) Catapult             |         |
-| (G/g) Gorilla              |         |
-| (X/x) Golf cart            |         |
-| (H/h) Time Machine         |         |
-| (Z/z) Beekerper            |         |
-| (W/w) King with a Jet Pack |         |
+| Chess Piece                | Moveset  | Effects  |
+| -------------------------- | -------  | -------- |
+| (S/s) Serpent              | The serpents moves likes a king however it cannot move to a sqaure occupied by an opposing peice |          |
+| (O/o) Old Woman            |          |          |
+| (E/e) Grand Empress        |          |          |
+| (J/j) Prince Joey          |          |          |
+| (C/c) Catapult             |          |          |
+| (G/g) Gorilla              |          |          |
+| (X/x) Golf cart            |          |          |
+| (H/h) Time Machine         |          |          |
+| (Z/z) Beekerper            |          |          |
+| (W/w) King with a Jet Pack |          |          |
 
 ## Installation
 
