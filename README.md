@@ -1,11 +1,22 @@
 # Wildebeest 2 Player Chess AI
 > A chess variant alpha-beta pruning AI.
 
-[Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant orginaly created by R. Wayne Schmittberger where the board is 11x10 sqaures. The board consists of the standard chess pieces along with a couple new pieces whose moveset, effects and rules can be found in the table below.
+[Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant orginaly created by R. Wayne Schmittberger where the board is 11x10 sqaures. The board consists of the standard chess pieces along with a couple new pieces whose moveset, actions and rules can be found in the table below.
 
 ![](header.png)
 
-
+| Chess Piece                | Moveset |
+| -------------------------- | ------- |
+| (S/s) Serpent              |         |
+| (O/o) Old Woman            |         |
+| (E/e) Grand Empress        |         |
+| (J/j) Prince Joey          |         |
+| (C/c) Catapult             |         |
+| (G/g) Gorilla              |         |
+| (X/x) Golf cart            |         |
+| (H/h) Time Machine         |         |
+| (Z/z) Beekerper            |         |
+| (W/w) King with a Jet Pack |         |
 
 ## Installation
 
