@@ -1,7 +1,7 @@
 # Wildebeest 2 Player Chess AI
 > A chess variant alpha-beta pruning AI.
 
-One to two paragraph statement about your product and what it does.
+Wildebeest is a chess variant orginaly created by [R. Wayne Schmittberger](https://en.wikipedia.org/wiki/Wildebeest_Chess) where the board is 11x10 sqaures.
 
 ![](header.png)
 
