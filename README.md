@@ -44,7 +44,7 @@ The Serpent has the ability to poison any opposing, biological, adjacent piece (
 <br>
 * __4.__ The Golf Cart and Time Machine, cannot be poisoned (and cannot be used to convert the old woman into the Grand Empress).
 <br>
-* __5__ A Serpent can poison an adjacent Beekeeper, but cannot move out of its swarm.
+* __5.__ A Serpent can poison an adjacent Beekeeper, but cannot move out of its swarm.
 
 <br>
 ### Flung Pieces
