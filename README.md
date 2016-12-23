@@ -10,7 +10,10 @@
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
 | (P/p) pawn                 | Moves and capture likes a regular chess pawn except the en passant capture move is not allowed. | If any pawn occupies the row 5 (the middle of the board), the opposing player's golf cart becomes fully charged. |
-| (S/s) Serpent              | The serpents moves likes a king however it cannot capture an opposing peice. ||
+| (B/b)                      | The bishop moves and captures like in regular chess. | n/a |
+| (N/n)                      | The knight moves and captures like in regular chess. | | n/ a |
+| (R/r)                      | The rook moves and captures like in regular chess. | n/a |
+| (S/s) Serpent              | The serpents moves likes a king however it cannot capture an opposing piece. ||
 | (O/o) Old Woman            | The old woman moves and captures like a king. ||
 | (E/e) Grand Empress        | The grand Empress moves and captures like a knight, queen and serpent. ||
 | (J/j) Prince Joey | Prince Joey moves and captures like a king. | If at any point in time, the total number of pieces (including Prince Joey) in Prince Joey’s row is evenly divisible by 5, prince Joey explodes and he, and any adjacent (8-square) pieces (friendly or enemy are removed from the board). If there are two Prince Joey’s in the same row, the determination of whether each Prince Joey explodes should be performed once, prior to the explosion(s) and removal of pieces. |
