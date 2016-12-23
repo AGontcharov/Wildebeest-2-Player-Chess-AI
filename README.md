@@ -6,12 +6,13 @@
 ###Starting State of the Board
 ![](StartingBoard.png)
 
+<br>
 
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
 | (P/p) pawn                 | Moves and capture likes a regular chess pawn except the en passant capture move is not allowed. | If any pawn occupies the row 5 (the middle of the board), the opposing player's golf cart becomes fully charged. |
 | (B/b)                      | The bishop moves and captures like in regular chess. | n/a |
-| (N/n)                      | The knight moves and captures like in regular chess. | | n/ a |
+| (N/n)                      | The knight moves and captures like in regular chess. | n/ a |
 | (R/r)                      | The rook moves and captures like in regular chess. | n/a |
 | (S/s) Serpent              | The serpents moves likes a king however it cannot capture an opposing piece. ||
 | (O/o) Old Woman            | The old woman moves and captures like a king. ||
@@ -24,6 +25,12 @@
 | (Z/z) Beekerper            | The beekeeper moves and captures like a king. | Paralyzes any opoosing adjacent pieces (8 squares) and prevents them from moving by releasing a swarm. A piece can move through the swarmed space or into the swarmed space, but once landed in the swarmed space it will not be able to move. |
 | (W/w) King with a Jet Pack | Moves and captures like a bishop. | n/a |
 
+<br>
+
+|Sqaure Symbol | Effect |
+|--------------| -------|
+|(#) Jet Pack  | If a King lands on the Jeb Pack it becomes a King with a Jet Pack (W/w) (see Above). |
+|(*) Transporter Pad | There are 4 transporter pads located on the board which teleport pieces to another transporter. The rules for the transporter pads are: <br><br> a. Row 3, Column 9 moves to Row 3, Column 1, (right to left) <br> b. Row 7, Column 1 moves to Row 3, Column 9, (diagonal right) <br>c. Row 7, Column 9 moves to Row 7, Column 1, (right to left) <br>d. Row 3, Column 1 moves to Row 7, Column 9. (diagonal right) |
 ## Installation
 
 OS X & Linux:
