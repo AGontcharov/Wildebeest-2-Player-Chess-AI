@@ -6,7 +6,7 @@
 ![](header.png)
 
 | Chess Piece                | Moveset  | After Effects  |
-| -------------------------- | -------  | -------- ------|
+| -------------------------- | -------  | ---------------|
 | (S/s) Serpent              | The serpents moves likes a king however it cannot capture an opposing peice. ||
 | (O/o) Old Woman            | The old woman moves and captures like a king. ||
 | (E/e) Grand Empress        | The grand Empress moves and captures like a knight, queen and serpent. ||
