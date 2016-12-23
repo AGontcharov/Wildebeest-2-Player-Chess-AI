@@ -6,6 +6,7 @@
 ###Starting State of the Board
 ![](StartingBoard.png)
 
+<br>
 ###Pieces Information 
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
@@ -25,25 +26,27 @@
 | (W/w) King with a Jet Pack | Moves and captures like a bishop. | n/a |
 
 <br>
-###Special Board Sqaures
+###Special Board Squares
 |Sqaure Symbol | Effect |
 |--------------| -------|
 |(#) Jet Pack  | If a King lands on the Jeb Pack it becomes a King with a Jet Pack (W/w) (see Above). |
 |(*) Transporter Pad | There are 4 transporter pads located on the board which teleport pieces to another transporter. The rules for the transporter pads are: <br><br> a. Row 3, Column 9 moves to Row 3, Column 1, (right to left) <br> b. Row 7, Column 1 moves to Row 3, Column 9, (diagonal right) <br>c. Row 7, Column 9 moves to Row 7, Column 1, (right to left) <br>d. Row 3, Column 1 moves to Row 7, Column 9. (diagonal right) |
 
+<br>
 ### Poison
 The Serpent has the ability to poison any opposing, biological, adjacent piece (8-square). Any time it is adjacent to one or more opposing biological, pieces, the opposing, biological pieces are all removed from the board (friendly pieces are unaffected).
 <br>
-* __a__. If the Serpent ever poisons a piece that is also adjacent (8-square) to an opposing Old Woman, then the Serpent is captured (removed from the board) and the Old Woman piece is replaced by the Grand Empress piece. All opposing pieces next to the Serpent’s position are still removed.
+* __1.__ If the Serpent ever poisons a piece that is also adjacent (8-square) to an opposing Old Woman, then the Serpent is captured (removed from the board) and the Old Woman piece is replaced by the Grand Empress piece. All opposing pieces next to the Serpent’s position are still removed.
 <br>
-* __b__. The Serpent can poison an opposing Old Woman (if it is directly adjacent). The serpent can poison a gorilla.
+* __2.__ The Serpent can poison an opposing Old Woman (if it is directly adjacent). The serpent can poison a gorilla.
 <br>
-* __c__. If two serpents are adjacent to each other they will poison each other. If a friendly old woman is adjacent to a serpent that is poisoned by an enemy serpent, then the friendly old woman is converted into a Grand Empress.
+* __3.__ If two serpents are adjacent to each other they will poison each other. If a friendly old woman is adjacent to a serpent that is poisoned by an enemy serpent, then the friendly old woman is converted into a Grand Empress.
 <br>
-* __d__. The Golf Cart and Time Machine, cannot be poisoned (and cannot be used to convert the old woman into the Grand Empress).
+* __4.__ The Golf Cart and Time Machine, cannot be poisoned (and cannot be used to convert the old woman into the Grand Empress).
 <br>
-* __e__. A Serpent can poison an adjacent Beekeeper, but cannot move out of its swarm.
+* __5__ A Serpent can poison an adjacent Beekeeper, but cannot move out of its swarm.
 
+<br>
 ### Flung Pieces
 
 ## Installation
