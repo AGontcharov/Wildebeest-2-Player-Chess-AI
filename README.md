@@ -10,7 +10,7 @@
 ###Pieces Information 
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
-| (P/p) Pawn                 | The Pawn moves and capture likes a regular chess Pawn except the en passant capture move is not allowed. | If any Pawn occupies the row 5 (the middle of the board), the opposing player's Golf Cart becomes fully charged. |
+| (P/p) Pawn                 | The Pawn moves and capture likes a regular chess Pawn except the en passant capture move is not allowed. | If any Pawn occupies the row 5 (the middle of the board), the opposing player's Golf Cart becomes fully charged. Furthermore, all pawns are promoted to Time Machines once they reach the end of the board. |
 | (B/b)                      | The Bishop moves and captures like in regular chess. | n/a |
 | (N/n)                      | The Knight moves and captures like in regular chess. | n/ a |
 | (R/r)                      | The Rook moves and captures like in regular chess. | n/a |
