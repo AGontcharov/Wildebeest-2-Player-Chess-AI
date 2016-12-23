@@ -3,7 +3,7 @@
 
 [Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant orginaly created by R. Wayne Schmittberger where the board is 11x10 sqaures. The board consists of the standard chess pieces along with a couple new pieces whose moveset, after effects and rules can be found in the table below. In addition, there are a few special squares on the board which are detailed further down below in another table.
 
-![](header.png)
+![](StartingBoard.png)
 
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
