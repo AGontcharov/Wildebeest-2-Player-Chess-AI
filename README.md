@@ -79,6 +79,19 @@ Windows:
 ```sh
 Not yet available
 ```
+## Running
+
+OX X & Linux:
+
+```sh
+cd WildebeestChessAI
+./AlphaBeta.py boards.txt
+```
+Windows:
+
+```sh
+Not yet available
+```
 
 ## Usage example
 
