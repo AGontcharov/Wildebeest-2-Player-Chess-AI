@@ -1,6 +1,8 @@
 # Wildebeest 2 Player Chess AI
 > A chess variant alpha-beta pruning AI.
 
+![](WildebeestOverview.png)
+
 [Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant orginaly created by R. Wayne Schmittberger where the board is 11x10 squares. The board consists of the standard chess pieces along with a couple new pieces whose moveset, after effects and rules can be found in the table below. In addition, there are a few special squares on the board which are detailed further down below in another table.
 
 ###Starting State of the Board
@@ -69,9 +71,22 @@ OS X & Linux:
 ```sh
 git clone https://github.com/AGontcharov/Wildebeest-2-Player-Chess-AI.git
 cd WildebeestChessAI
-./AlphaBeta.py boards.txt
+chmod u+x AlphaBeta.py
 ```
 
+Windows:
+
+```sh
+Not yet available
+```
+## Running
+
+OX X & Linux:
+
+```sh
+cd WildebeestChessAI
+./AlphaBeta.py boards.txt
+```
 Windows:
 
 ```sh
@@ -84,4 +99,4 @@ Not yet available
 
 Alexander Gontcharov – alexander.goncharov@gmail.com
 
-[https://github.com/AGontcharov/github-link](https://github.com/AGontcharov/)
+[https://github.com/AGontcharov/](https://github.com/AGontcharov/)
