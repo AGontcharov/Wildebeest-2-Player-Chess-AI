@@ -1119,20 +1119,20 @@ if __name__ == "__main__":
 	currentTurn += 1
 
 	# Write the chosen board to standard out
-	print currentPlayer
-	for row in chosenBoard:
-		print ''.join(row)
-	print currenTime
-	print allowedTime
-	print currentTurn
+	#print currentPlayer
+	#for row in chosenBoard:
+	#	print ''.join(row)
+	#print currenTime
+	#print allowedTime
+	#print currentTurn
 
 	# Write the chosen board to board.out
-	# outputFile = open("board.out", "w");
-	# outputFile.write(currentPlayer + "\n")
+	outputFile = open("board.out", "w");
+	outputFile.write(currentPlayer + "\n")
 
-	# for row in chosenBoard:
-	# 	outputFile.write(''.join(row) + "\n")
+	for row in chosenBoard:
+	 	outputFile.write(''.join(row) + "\n")
 
-	# outputFile.write(str(currenTime) + "\n")
-	# outputFile.write(str(allowedTime) + "\n")
-	# outputFile.write(str(currentTurn))
+	outputFile.write(str(currenTime) + "\n")
+	outputFile.write(str(allowedTime) + "\n")
+	outputFile.write(str(currentTurn))
