@@ -71,7 +71,7 @@ OS X & Linux:
 ```sh
 git clone https://github.com/AGontcharov/Wildebeest-2-Player-Chess-AI.git
 cd WildebeestChessAI
-./AlphaBeta.py boards.txt
+chmod u+x AlphaBeta.py
 ```
 
 Windows:
@@ -99,4 +99,4 @@ Not yet available
 
 Alexander Gontcharov – alexander.goncharov@gmail.com
 
-[https://github.com/AGontcharov/github-link](https://github.com/AGontcharov/)
+[https://github.com/AGontcharov/](https://github.com/AGontcharov/)
