@@ -7,11 +7,11 @@
 
 The Wildebeest 2 Player Chess AI generates all the possible states (possible moves) of a board for a player as his next move. All the states produce adhere to the Wildebeest chess rules and are then added to a list. From this list all the states are given a score based on a heuristic function that is applied to them. A state with the highest score is chosen as the succesfor as the player's next move. The Wildebeest Chess AI by default has depth set to 2 and therefore will look into the future 2 moves ahead producing better result but at a computational cost. Scores are only applied to resulting state, therfore at depth 3 only boards three moves ahead will have a score applied to them. In addition, the Wildebeest Chess AI is also based on the [Minimax Search with Alpha-beta pruning](http://will.thimbleby.net/algorithms/doku.php?id=minimax_search_with_alpha-beta_pruning).
 
-###Starting State of the Board
+### Starting State of the Board
 ![](StartingBoard.png)
 
 <br>
-###Pieces Information 
+### Pieces Information 
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
 | (P/p) Pawn                 | The Pawn moves and capture likes a regular chess Pawn except the _en passant_ capture move is not allowed. | If any Pawn occupies the row 5 (the middle of the board), the opposing player's Golf Cart becomes fully charged. Furthermore, all pawns are promoted to Time Machines once they reach the end of the board. |
@@ -30,7 +30,7 @@ The Wildebeest 2 Player Chess AI generates all the possible states (possible mov
 | (W/w) King with a Jet Pack | Moves and captures like a Bishop.                                                                          | n/a |
 
 <br>
-###Special Board Squares
+### Special Board Squares
 |    Sqaure Symbol    |                                         Efect                                         |
 |---------------------| --------------------------------------------------------------------------------------|
 |(#) Jet Pack         | If a King lands on the Jeb Pack it becomes a King with a Jet Pack (W/w) (see above).  |
