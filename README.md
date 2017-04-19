@@ -10,8 +10,8 @@ The Wildebeest 2 Player Chess AI generates all the possible states (possible mov
 ### Starting State of the Board
 ![](StartingBoard.png)
 
-<br>
 ### Pieces Information 
+
 | Chess Piece                | Moveset  | After Effects  |
 | -------------------------- | -------  | ---------------|
 | (P/p) Pawn                 | The Pawn moves and capture likes a regular chess Pawn except the _en passant_ capture move is not allowed. | If any Pawn occupies the row 5 (the middle of the board), the opposing player's Golf Cart becomes fully charged. Furthermore, all pawns are promoted to Time Machines once they reach the end of the board. |
@@ -30,34 +30,32 @@ The Wildebeest 2 Player Chess AI generates all the possible states (possible mov
 | (W/w) King with a Jet Pack | Moves and captures like a Bishop.                                                                          | n/a |
 
 <br>
+
 ### Special Board Squares
+
 |    Sqaure Symbol    |                                         Efect                                         |
 |---------------------| --------------------------------------------------------------------------------------|
 |(#) Jet Pack         | If a King lands on the Jeb Pack it becomes a King with a Jet Pack (W/w) (see above).  |
 |(*) Transporter Pad  | There are 4 transporter pads located on the board which teleport pieces to another transporter. The rules for the transporter pads are: <br><br> a. Row 3, Column 9 moves to Row 3, Column 1, (right to left) <br> b. Row 7, Column 1 moves to Row 3, Column 9, (diagonal right) <br>c. Row 7, Column 9 moves to Row 7, Column 1, (right to left) <br>d. Row 3, Column 1 moves to Row 7, Column 9. (diagonal right) |
 
 <br>
+
 ### Poison
+
 The Serpent has the ability to poison any opposing, biological, adjacent piece (8-square). Any time it is adjacent to one or more opposing biological, pieces, the opposing, biological pieces are __all__ removed from the board (friendly pieces are unaffected).
-<br>
 * __1.__ If the Serpent ever poisons a piece that is also adjacent (8-square) to an opposing Old Woman, then the Serpent is captured (removed from the board) and the Old Woman piece is replaced by the Grand Empress piece. All opposing pieces next to the Serpent’s position are still removed.
-<br>
 * __2.__ The Serpent can poison an opposing Old Woman (if it is directly adjacent). The Serpent can poison a Gorilla.
-<br>
 * __3.__ If two Serpents are adjacent to each other they will poison each other. If a friendly Old Woman is adjacent to a Serpent that is poisoned by an enemy Serpent, then the friendly Old Woman is converted into a Grand Empress.
-<br>
 * __4.__ The Golf Cart and Time Machine, cannot be poisoned (and cannot be used to convert the Old Woman into the Grand Empress).
-<br>
 * __5.__ A Serpent can poison an adjacent Beekeeper, but cannot move out of its swarm.
 
-<br>
 ### Flung Pieces
 
 The flung piece can move any distance. It can land on an empty square or on an opposing piece (in which case the opposing piece is
 captured). The flung piece cannot capture a King or Gorilla. A Gorilla can be flung onto an enemy piece and thereby capture it. A catapult can fling a friendly piece onto a transporter pad. Time Machines and Golf Cart cannot be flunged. A catapult can fling a paralyzed piece unless the catapult is paralyzed. 
 
-<br>
-###Order of After Effects
+### Order of After Effects
+
 1. Serpent/Grand Empress poison
 2. Grand Empress transformation
 3. Pawn on row 5 (middle row of the board)
