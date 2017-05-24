@@ -3,9 +3,9 @@
 
 ![](WildebeestOverview.png)
 
-[Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant orginaly created by R. Wayne Schmittberger where the board is 11x10 squares. The board consists of the standard chess pieces along with a couple new pieces whose moveset, after effects and rules can be found in the table below. In addition, there are a few special squares on the board which are also detailed further down below in another table.
+[Wildebeest chess](https://en.wikipedia.org/wiki/Wildebeest_Chess) is a chess variant originally created by R. Wayne Schmittberger where the board is 11x10 squares. The board consists of the standard chess pieces along with a couple new pieces whose moveset, after effects and rules can be found in the table below. In addition, there are a few special squares on the board which are also detailed further down below in another table.
 
-The Wildebeest 2 Player Chess AI generates all the possible states (possible moves) of a board for a player as his next move. All the states produce adhere to the Wildebeest chess rules and are then added to a list. From this list all the states are given a score based on a heuristic function that is applied to them. A state with the highest score is chosen as the succesfor as the player's next move. The Wildebeest Chess AI by default has depth set to 2 and therefore will look into the future 2 moves ahead producing better result but at a computational cost. Scores are only applied to resulting state, therfore at depth 3 only boards three moves ahead will have a score applied to them. In addition, the Wildebeest Chess AI is also based on the [Minimax Search with Alpha-beta pruning](http://will.thimbleby.net/algorithms/doku.php?id=minimax_search_with_alpha-beta_pruning).
+The Wildebeest 2 Player Chess AI generates all the possible states (possible moves) of a board for a player as his next move. All the states produce adhere to the Wildebeest chess rules and are then added to a list. From this list all the states are given a score based on a heuristic function that is applied to them. A state with the highest score is chosen as the successor as the player's next move. The Wildebeest Chess AI by default has depth set to 2 and therefore will look into the future 2 moves ahead producing better result but at a computational cost. Scores are only applied to resulting state, therefore at depth 3 only boards three moves ahead will have a score applied to them. In addition, the Wildebeest Chess AI is also based on the [Minimax Search with Alpha-beta pruning](http://will.thimbleby.net/algorithms/doku.php?id=minimax_search_with_alpha-beta_pruning).
 
 ### Starting State of the Board
 
@@ -19,22 +19,22 @@ The Wildebeest 2 Player Chess AI generates all the possible states (possible mov
 | (B/b) Bishop               | The Bishop moves and captures like in regular chess.                                                       | n/a |
 | (N/n) Knight               | The Knight moves and captures like in regular chess.                                                       | n/ a |
 | (R/r) Rook                 | The Rook moves and captures like in regular chess.                                                         | n/a |
-| (S/s) Serpent              | The Serpents moves likes a King however it cannot capture an opposing piece.                               | The Serpent poisons enemy peices as described in the poison section below. |
+| (S/s) Serpent              | The Serpents moves likes a King however it cannot capture an opposing piece.                               | The Serpent poisons enemy pieces as described in the poison section below. |
 | (O/o) Old Woman            | The Old Woman moves and captures like a King.                                                              | The Old Woman can be converted into a Grand Empress by the poisoning of an adjacent friendly piece see the description of poison below. |
 | (E/e) Grand Empress        | The Grand Empress moves and captures like a Knight, queen and Serpent.                                     | The Grand empress poisons enemy pieces as described in the poison section below. |
 | (J/j) Prince Joey          | Prince Joey moves and captures like a King.                                                                | If at any point in time, the total number of pieces (including Prince Joey) in Prince Joey’s row is evenly divisible by 5, prince Joey explodes and he, and any adjacent (8-square) pieces (friendly or enemy are removed from the board). If there are two Prince Joey’s in the same row, the determination of whether each Prince Joey explodes should be performed once, prior to the explosion(s) and removal of pieces. |
-| (C/c) Catapult             | The catapult moves like a King however it cannot catpure an opposing piece. Instead of moving it can fling a friendly adjacent piece (8-square) from the piece’s starting position to a location that is in the same direction as the direction from the adjacent piece to the catapult. See more information about the flunged piece in the section below. | n/ a |
-| (G/g) Gorilla              | The Gorilla moves like a King however it cannot capture an opposing peice (unless flung), nor can it **be** captured. It does, however, have the ability to push a piece (as long as that piece is not also a Gorilla). It this case, the Gorilla moves into an adjacent square (8-square) occupied by a friendly or opposing piece and that friendly or opposing piece also moves a single square in the same direction as the Gorilla. If the destination square of the pushed piece is not occupied by another Gorilla, then the occupant of the adjacent square is captured (even if it is a friendly piece). | n/a |
+| (C/c) Catapult             | The catapult moves like a King however it cannot capture an opposing piece. Instead of moving it can fling a friendly adjacent piece (8-square) from the piece’s starting position to a location that is in the same direction as the direction from the adjacent piece to the catapult. See more information about the flunged piece in the section below. | n/ a |
+| (G/g) Gorilla              | The Gorilla moves like a King however it cannot capture an opposing piece (unless flung), nor can it **be** captured. It does, however, have the ability to push a piece (as long as that piece is not also a Gorilla). It this case, the Gorilla moves into an adjacent square (8-square) occupied by a friendly or opposing piece and that friendly or opposing piece also moves a single square in the same direction as the Gorilla. If the destination square of the pushed piece is not occupied by another Gorilla, then the occupant of the adjacent square is captured (even if it is a friendly piece). | n/a |
 | (X/x) Golf Cart            | The Golf Cart can only move and capture left and right a single square in the bottom and top row.          | If the Golf cart is charged after a turn, it additionally moves up or down the column capturing all pieces in the column (including friendly pieces and Gorilla). If both Golf carts are in the same column and are both charged everything in that column is removed. |
 | (H/h) Time Machine         | The Time Machine cannot move or capture.                                                                   | As long as the Time Machine is on the board, the Golf cart is charged. |
-| (Z/z) Beekerper            | The Beekeeper moves and captures like a King.                                                              | Paralyzes any opoosing adjacent pieces (8 squares) and prevents them from moving by releasing a swarm. A piece can move through the swarmed space or into the swarmed space, but once landed in the swarmed space it will not be able to move. |
+| (Z/z) Beekeeper            | The Beekeeper moves and captures like a King.                                                              | Paralyzes any opposing adjacent pieces (8 squares) and prevents them from moving by releasing a swarm. A piece can move through the swarmed space or into the swarmed space, but once landed in the swarmed space it will not be able to move. |
 | (W/w) King with a Jet Pack | Moves and captures like a Bishop.                                                                          | n/a |
 
 ### Special Board Squares
 
-|    Sqaure Symbol    |                                         Efect                                         |
+|    Square Symbol    |                                         Effect                                         |
 |---------------------| --------------------------------------------------------------------------------------|
-|(#) Jet Pack         | If a King lands on the Jeb Pack it becomes a King with a Jet Pack (W/w) (see above).  |
+|(#) Jet Pack         | If a King lands on the Jet Pack it becomes a King with a Jet Pack (W/w) (see above).  |
 |(*) Transporter Pad  | There are 4 transporter pads located on the board which teleport pieces to another transporter. The rules for the transporter pads are: <br><br> a. Row 3, Column 9 moves to Row 3, Column 1, (right to left) <br> b. Row 7, Column 1 moves to Row 3, Column 9, (diagonal right) <br>c. Row 7, Column 9 moves to Row 7, Column 1, (right to left) <br>d. Row 3, Column 1 moves to Row 7, Column 9. (diagonal right) |
 
 ### Poison
@@ -83,11 +83,6 @@ Linux & OS X:
 ```sh
 cd WildebeestChessAI
 ./AlphaBeta.py boards.txt
-```
-Windows:
-
-```sh
-Not yet available
 ```
 
 ## Usage example
